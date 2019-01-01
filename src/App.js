@@ -27,7 +27,8 @@ class App extends Component {
     store.dispatch(addExpense({description:'water bill',note:'test',amount: 4500}));
     store.dispatch(addExpense({description:'gas bill',amount: 200}));
     store.dispatch(addExpense({description:'Electricity',note:'test',amount: 4500}));
-    store.dispatch(setTextFilter('bill'));
+    store.dispatch(addExpense({description:'Computer',note:'see if git changes',amount: 220000}));
+    store.dispatch(setTextFilter('b'));
     //const state = store.getState();
     console.log('hello 2',store.getState());
 
