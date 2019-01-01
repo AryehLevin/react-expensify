@@ -3,14 +3,27 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "enzyme": "^3.8.0",
+    "enzyme-adapter-react-16": "^1.7.1",
+    "moment": "^2.23.0",
+    "node-sass": "^4.11.0",
+    "raf": "^3.4.1",
     "react": "^16.6.3",
+    "react-addons-shallow-compare": "^15.6.2",
+    "react-dates": "^18.3.1",
     "react-dom": "^16.6.3",
-    "react-scripts": "2.1.1"
+    "react-redux": "^6.0.0",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.1",
+    "redux": "^4.0.1",
+    "uuid": "^3.3.2"
   },
+
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "test1": "react-scripts test --config=jest.config.json",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -21,5 +34,9 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "redux-devtools-extension": "^2.13.7"
+  }
 }
